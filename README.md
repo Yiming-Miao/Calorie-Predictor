@@ -13,7 +13,7 @@
 * I, the professional bodybuilder, who try to keep very strict diet before my show, and I want to know exactly calories I intake everyday.
 * I, the patient, who have health problem and avoid to eat high calorie foods, need to know the energy of foods before taking them.
 
-#MVP
+# MVP
 - 1. web or app
 - 2. a model that can recognize foods images
 - 3. a calorie table of each foods
