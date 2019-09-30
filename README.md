@@ -1,4 +1,6 @@
 # Calorie-Predictor
+Group Members: Yiming Miao, Xiaoyu AN, Tingyi Zhang
+
 # Product Mission
 - For everyone who try to keep a healthy diet or professionals who have a very strict diet plan.
 - The Calorie Predictor is a system that can predict the calories from foods pictures.
@@ -14,6 +16,6 @@
 * I, the patient, who have health problem and avoid to eat high calorie foods, need to know the energy of foods before taking them.
 
 # MVP
-- 1. web or app
-- 2. a model that can recognize foods images
-- 3. a calorie table of each foods
+-  web or app which accept input images
+-  a model that can recognize foods images
+-  a calorie table of each foods
