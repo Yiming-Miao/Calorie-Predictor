@@ -1,5 +1,5 @@
 # Calorie-Predictor
-Group Members: Yiming Miao, Xiaoyu AN, Tingyi Zhang
+Group Members: Yiming Miao, Xiaoyu An, Tingyi Zhang
 
 # Product Mission
 - For everyone who try to keep a healthy diet or professionals who have a very strict diet plan.
