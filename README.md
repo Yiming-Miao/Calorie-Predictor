@@ -28,13 +28,15 @@ Cons:
 
 - **Calorie Mama**  
 The second app we downloaded is called "Calorie Mama".  
-Pros:  
+
+Pros: 
 - It can classify the food type automatically.  
-Cons:  
+Cons: 
 - It needs manually inputing the weight of the food.  
 
 - **Myfitnesspal**  
-The third one we tested is called "Myfitnesspal".   
+The third one we tested is called "Myfitnesspal".  
+
 Pros:  
 - The advantage of this app is that it can give the users a more specific nutrition composition of the food, such as protain content, carbohydrate content, fat content and so on. Moreover, it can give suggestions about the amount of calorie intaking to the users in view of thier physical data and weight lose goal.  
 Cons:  
