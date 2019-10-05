@@ -43,6 +43,43 @@ Pros:
 
 Cons:  
 - This app cannot identify pictures of food. The users should enter the food's name and weight. The advantage of this app is that it can give the users a more specific nutrition composition of the food, such as protain content, carbohydrate content, fat content and so on. Moreover, it can give suggestions about the amount of calorie intaking to the users in view of thier physical data and weight lose goal. 
+## Technology Justifications
+**Random Forests**
+
+Pros:
+1. Good performance and great advantages compared to other algorithms.
+2. Random forests can process very high-dimensional data (that is, data for many features) without the need for feature selection.
+3. After the training, what characteristics can be given by the random forest is more important.
+4. The training speed is fast and it is easy to make a parallelization method (when training, the tree and the tree are independent of each other).
+5. If a large part of the features are lost, the accuracy can still be maintained with the RF algorithm.
+6. The random forest algorithm has strong anti-interference ability. So when there is a large amount of data missing in the data, it is good to use RF.
+Cons:
+1.There may be many similar decision trees that mask the real results.
+2.For small data or low-dimensional data (data with less features), it may not produce a good classification. 
+
+**Support Vector Machines (SMO version)**
+
+Pros:
+1. Perform accurate in high dimensional spaces;
+2. Work efficiently with small data
+3. SMO use a subset of training points in the decision function (called support vectors), so it’s also memory efficient.
+Cons:
+1. The algorithm is prone for over-fitting, if the number of features is much greater than the number of samples.
+2. SVMs do not directly provide probability estimates, which are desirable in most classification problems.
+3. SVMs are not very efficient computationally, if your dataset is very big, such as when you have more than one thousand rows.
+
+**Naive Bayes**
+
+Pros:
+1. When dealing with large datasets or low-budget hardware, Naive Bayes algorithm is a feasible choice for short training time.
+2. The prediction time of this algorithm is very efficient.
+3. Transparency. It is easy to understand which features are influencing the predictions. 
+Cons:
+1. It has strong feature independence assumptions.
+2. The prior probability needs to be known, and the prior probability often depends on the hypothesis. There are many models that can be assumed, so in some cases the prediction effect will be poor due to the hypothetical prior model.
+3. Because we determine the classification by a priori and data to determine the probability of the posterior, there is a certain error rate in the classification decision.
+4. Very sensitive to the form of input data.
+
 
 ## Patent analysis  
 **Food recognition:**
