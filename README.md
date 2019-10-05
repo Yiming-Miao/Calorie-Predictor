@@ -19,3 +19,8 @@ Group Members: Yiming Miao, Xiaoyu An, Tingyi Zhang
 -  web or app which accept input images
 -  a model that can recognize foods images
 -  a calorie table of each foods
+
+# Product Review
+We have found several apps in Apple Store that are related to calorie predicting. The first one we downloaded from Apple Store was called "Lose it!". In this app, the users could enter their weight and height. Then users could set a goal of how much weight they are going to lose. However, the users cannot upload their food images in order to get the food's calorie predicted value automaticly. This app only allows the users to upload their food images, choose the types of food and add the grams of food. Therefore, the main purpose of this app is just recording users' everyday calorie intake manually.
+The second app we downloaded is called "Calorie Mama". In this app, it can classify the food type automatically, but still it needs manually inputing the weight of the food.
+The third one we 
