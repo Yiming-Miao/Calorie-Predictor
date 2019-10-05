@@ -21,26 +21,26 @@ Everyone who try to calculate how much they eat
 We have found several apps in Apple Store that are related to calorie predicting.
 
 **Lose it!**  
-The first one we downloaded from Apple Store was called "Lose it!".
 
 Pros:  
-- In this app, the users could enter their weight and height. Then users could set a goal of how much weight they are going to lose. However, the users cannot upload their food images in order to get the food's calorie predicted value automaticly.  
+- In this app, the users could enter their weight and height. Then users could set a goal of how much weight they are going to lose. However, the users cannot upload their food images in order to get the food's calorie predicted value automaticly.
+
 Cons:  
 - This app only allows the users to upload their food images, choose the types of food and add the grams of food. Therefore, the main purpose of this app is just recording users' everyday calorie intake manually.  
 
 **Calorie Mama**  
-The second app we downloaded is called "Calorie Mama".
 
 Pros: 
-- It can classify the food type automatically.  
+- It can classify the food type automatically.
+
 Cons: 
 - It needs manually inputing the weight of the food.
 
 **Myfitnesspal**  
-The third one we tested is called "Myfitnesspal".
 
 Pros:  
-- The advantage of this app is that it can give the users a more specific nutrition composition of the food, such as protain content, carbohydrate content, fat content and so on. Moreover, it can give suggestions about the amount of calorie intaking to the users in view of thier physical data and weight lose goal.  
+- The advantage of this app is that it can give the users a more specific nutrition composition of the food, such as protain content, carbohydrate content, fat content and so on. Moreover, it can give suggestions about the amount of calorie intaking to the users in view of thier physical data and weight lose goal.
+
 Cons:  
 - This app cannot identify pictures of food. The users should enter the food's name and weight. The advantage of this app is that it can give the users a more specific nutrition composition of the food, such as protain content, carbohydrate content, fat content and so on. Moreover, it can give suggestions about the amount of calorie intaking to the users in view of thier physical data and weight lose goal. 
 
