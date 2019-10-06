@@ -43,28 +43,25 @@ Pros:
 
 Cons:  
 - This app cannot identify pictures of food. The users should enter the food's name and weight. The advantage of this app is that it can give the users a more specific nutrition composition of the food, such as protain content, carbohydrate content, fat content and so on. Moreover, it can give suggestions about the amount of calorie intaking to the users in view of thier physical data and weight lose goal. 
-
-## Weight Estimate
-
-In our system, after segmentation and classification, the most important thing is describging or estimating the weight of different food. The MVP of this part is just let the user to enter the weight of the food, then we can calculate calaries of a meal. If we want our system to be more intelligent, we should let our system learn to estimate the weight of the food in the image.
-
-There are two ways to estimate the weight of food based on different food types. We assume that the food can be classified into two categories. One type of food is the kind that we can use some combinations of mathematical solid geometry to represent the shape of food in order to get thier volumes. Since we have classified the food, we can know the density information to calculate the weight of the food. This kind of technology is called the shape template 3D reconstruction estimating.
-
-The other type of food is the kind that cannot use regular mathmetical solid geometry to represent. They might just occupy some area such as scrambled eggs. Since the food images are usually geometrically distorted, we need to convert the food images to some kind of front view images in order to estimate the food area. After the food in the image is identified and the area is estimated, we estimate the weight of the food using the area-weight relation in the training data of the corresponding food item. 
-## Classification Technology Justifications
+## Technology Justifications
 **Random Forests**
+Random forest generation method are described in four steps 
+1. N samples are generated from the sample set by resampling.
+2. If we set the number of sample features is A, and K features in A are selected from N samples, and the optimal segmentation point is obtained by establishing a decision tree.
+3. Repeat M times to generate M decision trees.
+4. Majority voting mechanisms make predictions.
 
 Pros:
-- Good performance and great advantages compared to other algorithms.
 - Random forests can process very high-dimensional data (that is, data for many features) without the need for feature selection.
-- After the training, what characteristics can be given by the random forest is more important.
+- After the training, what characteristics is more important can be given by the random forest.
 - The training speed is fast and it is easy to make a parallelization method (when training, the tree and the tree are independent of each other).
+- During the training process, the effects between the features can be detected.
 - If a large part of the features are lost, the accuracy can still be maintained with the RF algorithm.
 - The random forest algorithm has strong anti-interference ability. So when there is a large amount of data missing in the data, it is good to use RF.
 
 Cons:
--There may be many similar decision trees that mask the real results.
--For small data or low-dimensional data (data with less features), it may not produce a good classification. 
+- There may be many similar decision trees that mask the real results.
+- For small data or low-dimensional data (data with less features), it may not produce a good classification. 
 
 **Support Vector Machines (SMO version)**
 
@@ -81,7 +78,7 @@ Cons:
 **Naive Bayes**
 
 Pros:
-- When dealing with large datasets or low-budget hardware, Naive Bayes algorithm is a feasible choice for short training time. 
+- When dealing with large datasets or low-budget hardware, Naive Bayes algorithm is a feasible choice for short training time.
 - The prediction time of this algorithm is very efficient.
 - Transparency. It is easy to understand which features are influencing the predictions. 
 
