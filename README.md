@@ -45,6 +45,7 @@ Cons:
 - This app cannot identify pictures of food. The users should enter the food's name and weight. The advantage of this app is that it can give the users a more specific nutrition composition of the food, such as protain content, carbohydrate content, fat content and so on. Moreover, it can give suggestions about the amount of calorie intaking to the users in view of thier physical data and weight lose goal. 
 ## Technology Justifications
 **Random Forests**
+
 Random forest generation method are described in four steps 
 1. N samples are generated from the sample set by resampling.
 2. If we set the number of sample features is A, and K features in A are selected from N samples, and the optimal segmentation point is obtained by establishing a decision tree.
