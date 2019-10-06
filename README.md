@@ -1,4 +1,4 @@
-test
+
 
 # Calorie-Predictor
 Team Members: Yiming Miao, Xiaoyu An, Tingyi Zhang
