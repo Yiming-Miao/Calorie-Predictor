@@ -43,7 +43,11 @@ Pros:
 
 Cons:  
 - This app cannot identify pictures of food. The users should enter the food's name and weight. The advantage of this app is that it can give the users a more specific nutrition composition of the food, such as protain content, carbohydrate content, fat content and so on. Moreover, it can give suggestions about the amount of calorie intaking to the users in view of thier physical data and weight lose goal. 
-## Major Components
+
+## System Design
+### Pogramming Language
+Python  
+
 ### Classification Technology Justifications
 **Random Forests**
 
@@ -108,6 +112,7 @@ The other type of food is the kind that cannot use regular mathmetical solid geo
 - Food-101：https://www.vision.ee.ethz.ch/datasets_extra/food-101/  
 - ECUSTFD： https://github.com/Liang-yc/ECUSTFD-resized-  
 - UNIMIB2015 Food Database， UNIMIB2016 Food Database: http://www.ivl.disco.unimib.it/activities/food-recognition/  
+- Calorie MAMA API: https://dev.caloriemama.ai/  
 
 ## Patent analysis  
 **Food recognition:**
