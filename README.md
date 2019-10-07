@@ -1,5 +1,3 @@
-
-
 # Calorie-Predictor
 Team Members: Yiming Miao, Xiaoyu An, Tingyi Zhang
 
@@ -45,7 +43,8 @@ Pros:
 
 Cons:  
 - This app cannot identify pictures of food. The users should enter the food's name and weight. The advantage of this app is that it can give the users a more specific nutrition composition of the food, such as protain content, carbohydrate content, fat content and so on. Moreover, it can give suggestions about the amount of calorie intaking to the users in view of thier physical data and weight lose goal. 
-## Classification Technology Justifications
+## Major Components
+### Classification Technology Justifications
 **Random Forests**
 
 Random forest generation method are described in four steps 
@@ -91,13 +90,25 @@ Cons:
 - Because we determine the classification by a priori and data to determine the probability of the posterior, there is a certain error rate in the classification decision.
 - Very sensitive to the form of input data.
 
-## Weight Estimate
+### Weight Estimate
 
-In our system, after segmentation and classification, the most important thing is describging or estimating the weight of different food. The MVP of this part is just let the user to enter the weight of the food, then we can calculate calaries of a meal. If we want our system to be more intelligent, we should let our system learn to estimate the weight of the food in the image.
+In our system, after segmentation and classification, the most important thing is describging or estimating the weight of different food. The MVP of this part is just let the user to enter the weight of the food, then we can calculate calories of a meal. If we want our system to be more intelligent, we should let our system learn to estimate the weight of the food in the image.
 
 There are two ways to estimate the weight of food based on different food types. We assume that the food can be classified into two categories. One type of food is the kind that we can use some combinations of mathematical solid geometry to represent the shape of food in order to get thier volumes. Since we have classified the food, we can know the density information to calculate the weight of the food. This kind of technology is called the shape template 3D reconstruction estimating.
 
 The other type of food is the kind that cannot use regular mathmetical solid geometry to represent. They might just occupy some area such as scrambled eggs. Since the food images are usually geometrically distorted, we need to convert the food images to some kind of front view images in order to estimate the food area. After the food in the image is identified and the area is estimated, we estimate the weight of the food using the area-weight relation in the training data of the corresponding food item. 
+
+**Referrence:**
+1. He Y, Xu C, Khanna N, Boushey CJ, Delp EJ. FOOD IMAGE ANALYSIS: SEGMENTATION, IDENTIFICATION AND WEIGHT ESTIMATION. Proc (IEEE Int Conf Multimed Expo). 2013;2013:10.1109/ICME.2013.6607548. doi:10.1109/ICME.2013.6607548  
+2. Estrada, F.J. & Jepson, A.D. Int J Comput Vis (2009) 85: 167. https://doi.org/10.1007/s11263-009-0251-z  
+3. Liang, Yanchao & Li, Jianhua. (2017). Computer vision-based food calorie estimation: dataset, method, and experiment. 
+
+### Available Opensource Dataset
+- MS-COCO: http://cocodataset.org/#home  
+- Food-101：https://www.vision.ee.ethz.ch/datasets_extra/food-101/  
+- ECUSTFD： https://github.com/Liang-yc/ECUSTFD-resized-  
+- UNIMIB2015 Food Database， UNIMIB2016 Food Database: http://www.ivl.disco.unimib.it/activities/food-recognition/  
+
 ## Patent analysis  
 **Food recognition:**
 1. Deep learning-based food image identifying method:https://patents.google.com/patent/CN104636757A/en?oq=food+image+recognition
