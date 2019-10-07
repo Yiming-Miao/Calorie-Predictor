@@ -2,7 +2,7 @@
 Team Members: Yiming Miao, Xiaoyu An, Tingyi Zhang
 
 ## Product Mission
-Use machine learning to recognize food images and estimate weights, and give prediction of its calories.
+Use machine learning to recognize food images and estimate weights, and give prediction of its calories. Calorie Predictior doesn't need users to know the weight of foods or enter names of foods, all it needs is a picture.
 
 ## Target Users
 Everyone who try to calculate how much they eat
