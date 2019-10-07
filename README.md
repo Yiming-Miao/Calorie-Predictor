@@ -13,7 +13,7 @@ Everyone who try to calculate how much they eat
 - I, the patient, who have health problem needed to avoid eating high calorie foods, need to know the energy of foods before taking them.
 
 ## MVP
-- an user interface that allow users to input foods images
+- An user interface that allow users to input foods images
 - Capability of reconizing foods and measuring weights
 - Calculate calories based on calorie table
 
