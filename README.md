@@ -51,6 +51,7 @@ Cons:
 
 ## System Design
 <img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/system.png">
+
 ### Pogramming Language
 Python  
 
