@@ -101,6 +101,9 @@ Cons:
 - Very sensitive to the form of input data.
 
 ### Weight Estimate
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/weightestimation1.png">
+
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/weightestimation2.png">
 
 In our system, after segmentation and classification, the most important thing is describging or estimating the weight of different food. The MVP of this part is just let the user to enter the weight of the food, then we can calculate calories of a meal. If we want our system to be more intelligent, we should let our system learn to estimate the weight of the food in the image.
 
