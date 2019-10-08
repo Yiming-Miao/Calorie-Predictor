@@ -1,5 +1,6 @@
 # Calorie-Predictor
 Team Members: Yiming Miao, Xiaoyu An, Tingyi Zhang
+
 <img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/logo.png">
 
 ## Product Mission
