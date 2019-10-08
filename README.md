@@ -24,6 +24,8 @@ Everyone who try to calculate how much they eat
 We have found several apps in Apple Store that are related to calorie predicting.
 
 **Lose it!**  
+https://www.loseit.com/
+
 <img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/loseit.png">
 
 Pros:  
@@ -33,6 +35,8 @@ Cons:
 - This app only allows the users to upload their food images, choose the types of food and add the grams of food. Therefore, the main purpose of this app is just recording users' everyday calorie intake manually.  
 
 **Calorie Mama**  
+https://caloriemama.ai/
+
 <img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/caloriemama.png">
 Pros: 
 - It can classify the food type automatically.
@@ -41,6 +45,8 @@ Cons:
 - It needs manually inputing the weight of the food.
 
 **Myfitnesspal**  
+https://www.myfitnesspal.com/
+
 <img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/myfitnesspal.png">
 
 Pros:  
