@@ -3,6 +3,7 @@ Team Members: Yiming Miao, Xiaoyu An, Tingyi Zhang
 
 ## Product Mission
 Use machine learning to recognize food images and estimate weights, and give prediction of its calories. Calorie Predictior doesn't need users to know the weight of foods or enter names of foods, all it needs is a picture.
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/productmission.png">
 
 ## Target Users
 Everyone who try to calculate how much they eat
@@ -21,6 +22,7 @@ Everyone who try to calculate how much they eat
 We have found several apps in Apple Store that are related to calorie predicting.
 
 **Lose it!**  
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/loseit.png">
 
 Pros:  
 - In this app, the users could enter their weight and height. Then users could set a goal of how much weight they are going to lose. However, the users cannot upload their food images in order to get the food's calorie predicted value automaticly.
@@ -29,7 +31,7 @@ Cons:
 - This app only allows the users to upload their food images, choose the types of food and add the grams of food. Therefore, the main purpose of this app is just recording users' everyday calorie intake manually.  
 
 **Calorie Mama**  
-
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/caloriemama.png">
 Pros: 
 - It can classify the food type automatically.
 
@@ -37,6 +39,7 @@ Cons:
 - It needs manually inputing the weight of the food.
 
 **Myfitnesspal**  
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/myfitnesspal.png">
 
 Pros:  
 - The advantage of this app is that it can give the users a more specific nutrition composition of the food, such as protain content, carbohydrate content, fat content and so on. Moreover, it can give suggestions about the amount of calorie intaking to the users in view of thier physical data and weight lose goal.
@@ -45,6 +48,7 @@ Cons:
 - This app cannot identify pictures of food. The users should enter the food's name and weight. The advantage of this app is that it can give the users a more specific nutrition composition of the food, such as protain content, carbohydrate content, fat content and so on. Moreover, it can give suggestions about the amount of calorie intaking to the users in view of thier physical data and weight lose goal. 
 
 ## System Design
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/system.png">
 ### Pogramming Language
 Python  
 
@@ -109,10 +113,15 @@ The other type of food is the kind that cannot use regular mathmetical solid geo
 
 ### Available Opensource Dataset
 - MS-COCO: http://cocodataset.org/#home  
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/mscocofig.png">
 - Food-101：https://www.vision.ee.ethz.ch/datasets_extra/food-101/  
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/food101.png">
 - ECUSTFD： https://github.com/Liang-yc/ECUSTFD-resized-  
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/ecustfig.png">
 - UNIMIB2015 Food Database， UNIMIB2016 Food Database: http://www.ivl.disco.unimib.it/activities/food-recognition/  
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/unimibfig.png">
 - Calorie MAMA API: https://dev.caloriemama.ai/  
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/apifig.png">
 
 ## Patent analysis  
 **Food recognition:**
