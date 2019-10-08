@@ -1,5 +1,6 @@
 # Calorie-Predictor
 Team Members: Yiming Miao, Xiaoyu An, Tingyi Zhang
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/logo.png">
 
 ## Product Mission
 Use machine learning to recognize food images and estimate weights, and give prediction of its calories. Calorie Predictior doesn't need users to know the weight of foods or enter names of foods, all it needs is a picture.
@@ -112,15 +113,15 @@ The other type of food is the kind that cannot use regular mathmetical solid geo
 3. Liang, Yanchao & Li, Jianhua. (2017). Computer vision-based food calorie estimation: dataset, method, and experiment. https://arxiv.org/pdf/1705.07632.pdf
 
 ### Available Opensource Dataset
-- MS-COCO: http://cocodataset.org/#home  
+- **MS-COCO**: http://cocodataset.org/#home  
 <img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/mscocofig.png">
-- Food-101：https://www.vision.ee.ethz.ch/datasets_extra/food-101/  
+- **Food-101**：https://www.vision.ee.ethz.ch/datasets_extra/food-101/  
 <img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/food101.png">
-- ECUSTFD： https://github.com/Liang-yc/ECUSTFD-resized-  
+- **ECUSTFD**： https://github.com/Liang-yc/ECUSTFD-resized-  
 <img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/ecustfig.png">
-- UNIMIB2015 Food Database， UNIMIB2016 Food Database: http://www.ivl.disco.unimib.it/activities/food-recognition/  
+- **UNIMIB2015 Food Database， UNIMIB2016 Food Database**: http://www.ivl.disco.unimib.it/activities/food-recognition/  
 <img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/unimibfig.png">
-- Calorie MAMA API: https://dev.caloriemama.ai/  
+- **Calorie MAMA API**: https://dev.caloriemama.ai/  
 <img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/apifig.png">
 
 ## Patent analysis  
