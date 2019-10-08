@@ -116,14 +116,19 @@ The other type of food is the kind that cannot use regular mathmetical solid geo
 ### Available Opensource Dataset
 - **MS-COCO**: http://cocodataset.org/#home  
 <img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/mscocofig.png">
+
 - **Food-101**：https://www.vision.ee.ethz.ch/datasets_extra/food-101/  
 <img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/food101.png">
+
 - **ECUSTFD**： https://github.com/Liang-yc/ECUSTFD-resized-  
 <img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/ecustfig.png">
+
 - **UNIMIB2015 Food Database， UNIMIB2016 Food Database**: http://www.ivl.disco.unimib.it/activities/food-recognition/  
 <img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/unimibfig.png">
+
 - **Calorie MAMA API**: https://dev.caloriemama.ai/  
 <img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/apifig.png">
+
 
 ## Patent analysis  
 **Food recognition:**
