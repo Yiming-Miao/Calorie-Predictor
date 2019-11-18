@@ -12,9 +12,9 @@
 </head>
 <body>
   <nav class="red lighten-4" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+    <div class="nav-wrapper container"><a href="#!" class="brand-logo"><i class="material-icons">cloud</i>Logo</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="https://github.com/Yiming-Miao/Calorie-Predictor">GitHub link</a></li>
+        <li><a href="https://github.com/Yiming-Miao/Calorie-Predictor">GitHub</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
@@ -28,20 +28,32 @@
       <br><br>
       <h1 class="header center red-text">Calorie Prediction</h1>
       <div class="row center">
-        <h5 class="header col s12 light">A Calorie Detected System based on Machine Learning</h5>
+        <h5 class="header col s12 light brown-text">A Calorie Detected System that based on Machine Learning</h5>
       </div>
 
 <body>
-<form action="#">
+<!--
+<form action='/k' method='post'>
+<input type='file' name='file'/><br/>
+<input type='submit' value='submit'/>
+</form>-->
+
+<form action="/k" enctype="multipart/form-data" method="post">
     <div class="file-field input-field">
       <div class="btn">
         <span>Upload Image</span>
-        <input id="imgPicker" type="file">
+
+        <input id="imgPicker" type="file" name="file">
       </div>
+
       <div class="file-path-wrapper">
         <input class="file-path validate" type="text">
       </div>
     </div>
+ <button class="btn waves-effect waves-light" type="submit" name="action" value="submit" id="s" onclick="test()">Submit
+    <i class="material-icons right">send</i>
+  </button>
+
   </form>
 <!--<input id="imgPicker" type="file" />-->
 <img id="preview" />
@@ -49,13 +61,12 @@
 <script>
 document
     .querySelector('#imgPicker')
-    .addEventListener('change', function(){
-
+    .addEventListener('change', function (){
+      console.log('124')
         if(this.files.length === 0){
             document.querySelector('#preview').src = '';
             return;
         }
-
 
         var reader = new FileReader();
 
@@ -63,15 +74,59 @@ document
 
             document.querySelector('#preview').src = e.target.result;
         };
-
-
     reader.readAsDataURL(this.files[0]);
     }, false);
 </script>
+<br>
+<!DOCTYPE html>
+<html>
+<body>
 
+
+<form action="/action_page_binary.asp" method="post" enctype="multipart/form-data">
+  Weight: <input type="text" name="fname"><br>
+</form>
 <br>
 
-      <br><br>
+<blockquote>
+<table class="highlight">
+        <thead>
+          <tr>
+              <th data-field="id">Food Type</th>
+              <th data-field="name">Weight</th>
+              <th data-field="price">Calorie</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Bread</td>
+            <td>200 g</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td>bacon</td>
+            <td>140 g</td>
+            <td>500</td>
+          </tr>
+          <tr>
+            <td>Lettuce</td>
+            <td>500 g</td>
+            <td>90</td>
+          </tr>
+        </tbody>
+      </table> </blockquote>
+<br><br><br>
+<form action="/action_page_binary.asp" method="post" enctype="multipart/form-data">
+  Total Calorie: <input type="text" name="lname"><br>
+
+</form>
+
+</body>
+</html>
+
+
+      <br>
 
     </div>
   </div>
@@ -116,7 +171,7 @@ document
     <br><br>
   </div>
 
-  <footer class="page-footer red lighten-3">
+  <footer class="page-footer red lighten-2">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
