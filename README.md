@@ -1,5 +1,6 @@
 # Calorie-Predictor
 Team Members: Yiming Miao, Xiaoyu An, Tingyi Zhang
+
 Contacts: {mym1031, anxiaoyu, tingyi97}@bu.edu
 
 **Check this out!**
