@@ -1,7 +1,7 @@
 # Calorie-Predictor
 Team Members: Yiming Miao, Xiaoyu An, Tingyi Zhang
 
-<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/logo.png">
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/A1_11.jpg">
 
 ## Product Mission
 Use machine learning to recognize food images and estimate weights, and give prediction of its calories. Calorie Predictior doesn't need users to know the weight of foods or enter names of foods, all it needs is a picture.
