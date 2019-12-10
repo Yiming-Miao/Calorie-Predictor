@@ -123,7 +123,7 @@ Cons:
 - Because we determine the classification by a priori and data to determine the probability of the posterior, there is a certain error rate in the classification decision.
 - Very sensitive to the form of input data.
 
-### Weight Estimate
+### Weight Estimate(TBD)
 <img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/weightestimation1.png">
 
 <img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/weightestimation2.png">
