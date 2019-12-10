@@ -1,7 +1,20 @@
 # Calorie-Predictor
 Team Members: Yiming Miao, Xiaoyu An, Tingyi Zhang
+Contacts: {mym1031, anxiaoyu, tingyi97}@bu.edu
 
+**Check this out!**
 <img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/A1_11.jpg">
+
+## Things we established
+### Website
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/Website.png">
+
+### Food Recognize Algorithm
+- The deep learning model we used is Mask R-CNN.  
+- Our work is based on a GitHub repo of Matterport, please click this link to see their excellent work: https://github.com/matterport/Mask_RCNN.
+
+### Our Own Dataset
+We built a relatively small dataset, manually labeled by VIA(VGG Image Anotator) and containing 10 types of foods.
 
 ## Product Mission
 Use machine learning to recognize food images and estimate weights, and give prediction of its calories. Calorie Predictior doesn't need users to know the weight of foods or enter names of foods, all it needs is a picture.
@@ -16,11 +29,20 @@ Everyone who try to calculate how much they eat
 - I, the patient, who have health problem needed to avoid eating high calorie foods, need to know the energy of foods before taking them.
 
 ## MVP
-- An user interface that allow users to input foods images
-- Capability of reconizing foods and measuring weights
+- An user interface that allow users to input foods images and enter the weight of foods
+- Capability of reconizing foods
 - Calculate calories based on calorie table
 
-## Similar products  
+## System Design (Original idea)
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/system.png">
+
+### Pogramming Language
+#### Deep Learning Algorthm
+Python 
+#### Web
+Our web page is designed based on Tornado (python web framework), HTML (Materialize framework) and JavaScript.
+
+## Similar Products Analysis  
 We have found several apps in Apple Store that are related to calorie predicting.
 
 **Lose it!**  
@@ -54,12 +76,6 @@ Pros:
 
 Cons:  
 - This app cannot identify pictures of food. The users should enter the food's name and weight. The advantage of this app is that it can give the users a more specific nutrition composition of the food, such as protain content, carbohydrate content, fat content and so on. Moreover, it can give suggestions about the amount of calorie intaking to the users in view of thier physical data and weight lose goal. 
-
-## System Design
-<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/system.png">
-
-### Pogramming Language
-Python  
 
 ### Classification Technology Justifications
 **Random Forests**
