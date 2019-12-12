@@ -3,12 +3,11 @@ Team Members: Yiming Miao, Xiaoyu An, Tingyi Zhang
 
 Contacts: {mym1031, anxiaoyu, tingyi97}@bu.edu
 
-**Check this out!**
-<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/A1_11.jpg">
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/Final_Poster.jpg">
 
-## Things we established
+## Things we've established
 ### Website
-<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/Website.png">
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/assets/Website.png">
 
 ### Food Recognize Algorithm
 - The deep learning model we used is Mask R-CNN.  
@@ -19,7 +18,7 @@ We built a relatively small dataset, manually labeled by VIA(VGG Image Anotator)
 
 ## Product Mission
 Use machine learning to recognize food images and estimate weights, and give prediction of its calories. Calorie Predictior doesn't need users to know the weight of foods or enter names of foods, all it needs is a picture.
-<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/productmission.png">
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/assets/productmission.png">
 
 ## Target Users
 Everyone who try to calculate how much they eat
@@ -35,7 +34,7 @@ Everyone who try to calculate how much they eat
 - Calculate calories based on calorie table
 
 ## System Design (Original idea)
-<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/system.png">
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/assets/system.png">
 
 ### Pogramming Language
 #### Deep Learning Algorthm
@@ -49,7 +48,7 @@ We have found several apps in Apple Store that are related to calorie predicting
 **Lose it!**  
 https://www.loseit.com/
 
-<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/loseit.png">
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/assets/loseit.png">
 
 Pros:  
 - In this app, the users could enter their weight and height. Then users could set a goal of how much weight they are going to lose. However, the users cannot upload their food images in order to get the food's calorie predicted value automaticly.
@@ -60,7 +59,7 @@ Cons:
 **Calorie Mama**  
 https://caloriemama.ai/
 
-<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/caloriemama.png">
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/assets/caloriemama.png">
 Pros: 
 - It can classify the food type automatically.
 
@@ -70,7 +69,7 @@ Cons:
 **Myfitnesspal**  
 https://www.myfitnesspal.com/
 
-<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/myfitnesspal.png">
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/assets/myfitnesspal.png">
 
 Pros:  
 - The advantage of this app is that it can give the users a more specific nutrition composition of the food, such as protain content, carbohydrate content, fat content and so on. Moreover, it can give suggestions about the amount of calorie intaking to the users in view of thier physical data and weight lose goal.
@@ -125,9 +124,9 @@ Cons:
 - Very sensitive to the form of input data.
 
 ### Weight Estimate(TBD)
-<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/weightestimation1.png">
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/assets/weightestimation1.png">
 
-<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/weightestimation2.png">
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/assets/weightestimation2.png">
 
 In our system, after segmentation and classification, the most important thing is describging or estimating the weight of different food. The MVP of this part is just let the user to enter the weight of the food, then we can calculate calories of a meal. If we want our system to be more intelligent, we should let our system learn to estimate the weight of the food in the image.
 
@@ -142,19 +141,19 @@ The other type of food is the kind that cannot use regular mathmetical solid geo
 
 ### Available Opensource Dataset
 - **MS-COCO**: http://cocodataset.org/#home  
-<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/mscocofig.png">
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/assets/mscocofig.png">
 
 - **Food-101**：https://www.vision.ee.ethz.ch/datasets_extra/food-101/  
-<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/food101.png">
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/assets/food101.png">
 
 - **ECUSTFD**： https://github.com/Liang-yc/ECUSTFD-resized-  
-<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/ecustfig.png">
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/assets/ecustfig.png">
 
 - **UNIMIB2015 Food Database， UNIMIB2016 Food Database**: http://www.ivl.disco.unimib.it/activities/food-recognition/  
-<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/unimibfig.png">
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/assets/unimibfig.png">
 
 - **Calorie MAMA API**: https://dev.caloriemama.ai/  
-<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/apifig.png">
+<img src="https://github.com/Yiming-Miao/Calorie-Predictor/blob/master/assets/apifig.png">
 
 
 ## Patent analysis  
